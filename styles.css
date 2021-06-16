@@ -1,0 +1,2032 @@
+.navbar {
+  /* background-color: hsla(0,0%,100%,.5);
+     backdrop-filter: blur(8px); */
+  background-color: #fff;
+  padding: 15px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-collapse {
+  padding-right: 3.2%;
+}
+
+#navigationBar {
+  padding-left: 150px;
+  padding-right: 0;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  padding-left: 4.7%;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 1000;
+  color: #6f4e37;
+  /* color: #b48648; */
+}
+.nav-item {
+  padding: 0 15px;
+}
+.navbar-brand:hover{
+  color: #6f4e37;
+}
+.nav-link {
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.nav-link:hover {
+  color: #b48648;
+}
+
+
+
+/* Body wrapper so that content doesnt overflow */
+.body-wrapper {
+  overflow-x: hidden;
+}
+
+/* Navbar margin so that nothing gets hidden behind navbar */
+#navbar-margin {
+  margin-top: 70px;
+}
+
+/* INtroduction CSS */
+#intro {
+  scroll-margin-top: 70px;
+  position: relative;
+}
+
+.introImg {
+  width: 100%;
+  object-fit: cover;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 33%;
+  left: 6%;
+  color: #fff;
+}
+
+.name {
+  font-size: 6.3rem;
+  font-weight: bold;
+  font-family: 'Noto Serif', serif;
+}
+
+.occupation {
+  padding-left: 25%;
+  font-size: 1.7rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* About section */
+#about {
+  background-color: #f8f4e1;
+  scroll-margin-top: -30px;
+}
+
+.main {
+  padding-top: 18%;
+  padding-right: 30%;
+}
+
+.aboutMe {
+  font-size: 5rem;
+  padding-bottom: 7%;
+  /* font-family: 'Lobster', cursive; */
+  font-family: 'Courgette', cursive;
+}
+
+.aboutIcon {
+  font-size: 3rem;
+  padding-left: 2%;
+}
+
+.text {
+  font-size: 1.3rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.photo {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  margin-left: 3%;
+  position: relative;
+  left: 60px;
+}
+
+.self-photo1 {
+  display: inline-block;
+  width: 57%;
+  border-radius: 50%;
+}
+
+.self-photo2 {
+  display: none;
+}
+
+.aboutSection {
+  max-height: 700px;
+}
+
+/* Education */
+#education {
+  /* background-color: #ffdf91; */
+  /* background-color: #e6e6e6; */
+  background-color: #d8b384;
+  /* background-color: #e9cba5; */
+  /* height: 660px; */
+  scroll-margin-top: -30px;
+}
+
+.edCenter {
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 2.1%;
+  margin-bottom: 3%;
+}
+
+.ed {
+  color: #fff;
+  text-align: center;
+  padding-top: 2.5%;
+  font-family: 'Courgette', cursive;
+  /* font-family: 'Lobster', cursive; */
+  font-size: 3.3rem;
+}
+
+.edIcon {
+  padding-left: 1%;
+  font-size: 3rem;
+}
+
+.schoolIcon {
+  font-size: 2.4rem;
+}
+
+.edTxt {
+  text-align: center;
+  color: #493323;
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 95%;
+  margin-left: 2%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.selfTxt {
+  text-align: center;
+  /* color: #fff; */
+  font-size: 1.2rem;
+  padding-bottom: 3%;
+  padding-top: 1%;
+  font-weight: bold;
+}
+
+.sea {
+  margin-left: 36%;
+  width: 29%;
+}
+
+.mvp {
+  margin-left: 35%
+}
+
+/* Skills */
+#skills {
+  background-color: #f8f4e1;
+  scroll-margin-top: -30px;
+}
+
+.one, .two, .three {
+  margin-top: 6.2%;
+  margin-bottom: 6.2%;
+  padding-left: 5.5%;
+}
+
+.card-title {
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  font-weight: bold;
+  font-size: 1.9rem;
+}
+
+.list-group-item {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-body, .item2 {
+  /* background-color: #CCCDC6; */
+  background-color: #fad6a9;
+}
+
+.item1, .item3 {
+  /* background-color: #E8E9EB; */
+  background-color: #fdeedc;
+}
+
+.skillIcon {
+  font-size: 1.5rem;
+  padding-left: 4%;
+}
+
+.card {
+  width: 80%;
+}
+
+/* Contact */
+#contact {
+  /* background-color: #d8b384; */
+  background-color: #e9cba5;
+  /* background-color: #eaac7f; */
+  /* background-color: #e3f5d7; */
+}
+
+.last {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.icon {
+  margin: 2.2% 2.2%;
+  font-size: 1.4rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.copyright {
+  color: grey;
+}
+
+/* Media query breakpoints */
+@media (max-width:1389px) and (min-width:1358px) {
+  .text-block {
+    position: absolute;
+    bottom: 31%;
+    left: 5%;
+  }
+}
+
+@media (max-width:1345px) and (min-width:1320px) {
+  .text-block {
+    position: absolute;
+    bottom: 31%;
+    left: 5%;
+  }
+
+  .name {
+    font-size: 6rem;
+  }
+
+  .occupation {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width:1320px) and (min-width:1243px) {
+  .text-block {
+    position: absolute;
+    bottom: 34%;
+    left: 5%;
+  }
+
+  .name {
+    font-size: 5.7rem;
+  }
+
+  .occupation {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width:1243px) and (min-width:1200px) {
+  .text-block {
+    position: absolute;
+    bottom: 34%;
+    left: 4.7%;
+  }
+
+  .name {
+    font-size: 5.7rem;
+  }
+
+  .occupation {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width:1200px) and (min-width:1156px) {
+  .text-block {
+    position: absolute;
+    bottom: 34%;
+    left: 4.7%;
+  }
+
+  .name {
+    font-size: 5.4rem;
+  }
+
+  .occupation {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width:1156px) and (min-width:1100px) {
+  .text-block {
+    position: absolute;
+    bottom: 34%;
+    left: 4.5%;
+  }
+
+  .name {
+    font-size: 5.2rem;
+  }
+
+  .occupation {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width:1100px) and (min-width:1064px) {
+  .text-block {
+    position: absolute;
+    bottom: 34%;
+    left: 4.5%;
+  }
+
+  .name {
+    font-size: 5rem;
+  }
+
+  .occupation {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width:1064px) and (min-width:1005px) {
+  .text-block {
+    position: absolute;
+    bottom: 34%;
+    left: 4.1%;
+  }
+
+  .name {
+    font-size: 4.8rem;
+  }
+
+  .occupation {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width:1005px) and (min-width:927px) {
+  .text-block {
+    position: absolute;
+    bottom: 35%;
+    left: 4.4%;
+  }
+
+  .name {
+    font-size: 4.2rem;
+  }
+
+  .occupation {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width:927px) and (min-width:870px) {
+  .text-block {
+    position: absolute;
+    bottom: 35%;
+    left: 4.4%;
+  }
+
+  .name {
+    font-size: 4rem;
+  }
+
+  .occupation {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width:870px) and (min-width:845px) {
+  .text-block {
+    position: absolute;
+    bottom: 35%;
+    left: 4.4%;
+  }
+
+  .name {
+    font-size: 3.8rem;
+  }
+
+  .occupation {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width:845px) and (min-width:795px) {
+  .text-block {
+    position: absolute;
+    bottom: 35%;
+    left: 4.7%;
+  }
+
+  .name {
+    font-size: 3.5rem;
+  }
+
+  .occupation {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width:795px) and (min-width:750px) {
+  .text-block {
+    position: absolute;
+    bottom: 35%;
+    left: 5%;
+  }
+
+  .name {
+    font-size: 3.3rem;
+  }
+
+  .occupation {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width:750px) and (min-width:695px) {
+  .text-block {
+    position: absolute;
+    bottom: 35%;
+    left: 5.3%;
+  }
+
+  .name {
+    font-size: 3.1rem;
+  }
+
+  .occupation {
+    font-size: 0.87rem;
+  }
+}
+
+@media (max-width:695px) and (min-width:655px) {
+  .text-block {
+    position: absolute;
+    bottom: 35%;
+    left: 5.5%;
+  }
+
+  .name {
+    font-size: 2.9rem;
+  }
+
+  .occupation {
+    font-size: 0.86rem;
+  }
+}
+
+@media (max-width:655px) and (min-width:620px) {
+  .text-block {
+    position: absolute;
+    bottom: 35%;
+    left: 5.7%;
+  }
+
+  .name {
+    font-size: 2.7rem;
+  }
+
+  .occupation {
+    font-size: 0.85rem;
+    padding-left: 20%;
+  }
+}
+
+@media (max-width:620px) and (min-width:590px) {
+  .text-block {
+    position: absolute;
+    bottom: 35%;
+    left: 5.8%;
+  }
+
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .occupation {
+    font-size: 0.83rem;
+    padding-left: 18%;
+  }
+}
+
+@media (max-width:590px) and (min-width:530px) {
+  .text-block {
+    position: absolute;
+    bottom: 35%;
+    left: 5.9%;
+  }
+
+  .name {
+    font-size: 2.2rem;
+  }
+
+  .occupation {
+    font-size: 0.7rem;
+    padding-left: 18%;
+  }
+}
+
+@media (max-width:530px) and (min-width:460px) {
+  .text-block {
+    position: absolute;
+    bottom: 35%;
+    left: 6.2%;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .occupation {
+    font-size: 0.6rem;
+    padding-left: 18%;
+  }
+}
+
+@media (max-width:460px) and (min-width:416px) {
+  .text-block {
+    position: absolute;
+    bottom: 33%;
+    left: 6.4%;
+  }
+
+  .name {
+    font-size: 1.8rem;
+  }
+
+  .occupation {
+    font-size: 0.6rem;
+    padding-left: 18%;
+  }
+}
+
+@media (max-width:416px) and (min-width:375px) {
+  .text-block {
+    position: absolute;
+    bottom: 31%;
+    left: 6.6%;
+  }
+
+  .name {
+    font-size: 1.6rem;
+  }
+
+  .occupation {
+    font-size: 0.5rem;
+    padding-left: 18%;
+  }
+}
+
+@media (max-width:375px) and (min-width:320px) {
+  .text-block {
+    position: absolute;
+    bottom: 31%;
+    left: 6.6%;
+  }
+
+  .name {
+    font-size: 1.4rem;
+  }
+
+  .occupation {
+    font-size: 0.5rem;
+    padding-left: 16%;
+  }
+}
+
+@media (max-width:1388px) and (min-width:1384px) {
+  .one {
+    padding-left: 5.4%;
+  }
+}
+
+@media (max-width:1384px) and (min-width:1146px) {
+  .skillIcon {
+    font-size: 1rem;
+    padding-left: 0.7%;
+  }
+
+  .card-title {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width:1146px) and (min-width:1057px) {
+  .skillIcon {
+    font-size: 1rem;
+    padding-left: 0.5%;
+  }
+
+  .card-title {
+    font-size: 1.3rem;
+  }
+
+  .list-group-item {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width:1057px) and (min-width:1002px) {
+  .skillIcon {
+    font-size: 1rem;
+    padding-left: 0.5%;
+  }
+
+  .card-title {
+    font-size: 1.3rem;
+  }
+
+  .list-group-item {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width:1002px) and (min-width:969px) {
+  .skillIcon {
+    font-size: 0.9rem;
+    padding-left: 0.5%;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .list-group-item {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width:969px) and (min-width:951px) {
+  .skillIcon {
+    font-size: 0.9rem;
+    padding-left: 0.5%;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .list-group-item {
+    font-size: 0.78rem;
+  }
+}
+
+@media (max-width:951px) and (min-width:933px) {
+  .skillIcon {
+    font-size: 0.9rem;
+    padding-left: 0.5%;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .list-group-item {
+    font-size: 0.76rem;
+  }
+}
+
+@media (max-width:933px) and (min-width:925px) {
+  .skillIcon {
+    font-size: 0.9rem;
+    padding-left: 0.5%;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .list-group-item {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width:925px) and (min-width:906px) {
+  .skillIcon {
+    font-size: 0.9rem;
+    padding-left: 0.5%;
+  }
+
+  .card-title {
+    font-size: 1.09rem;
+  }
+
+  .list-group-item {
+    font-size: 0.729rem;
+  }
+}
+
+@media (max-width:906px) and (min-width:898px) {
+  .skillIcon {
+    font-size: 0.9rem;
+    padding-left: 0.5%;
+  }
+
+  .card-title {
+    font-size: 1.09rem;
+  }
+
+  .list-group-item {
+    font-size: 0.72rem;
+  }
+}
+
+@media (max-width:898px) and (min-width:881px) {
+  .skillIcon {
+    font-size: 0.9rem;
+    padding-left: 0.5%;
+  }
+
+  .card-title {
+    font-size: 1.07rem;
+  }
+
+  .list-group-item {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width:881px) and (min-width:800px) {
+  .skillIcon {
+    font-size: 0.7rem;
+    padding-left: 0.3%;
+  }
+
+  .card-title {
+    font-size: 0.92rem;
+  }
+
+  .list-group-item {
+    font-size: 0.63rem;
+  }
+}
+
+@media (max-width:800px) and (min-width:778px) {
+  .skillIcon {
+    font-size: 0.56rem;
+    padding-left: 0.2%;
+  }
+
+  .card-title {
+    font-size: 0.97rem;
+  }
+
+  .list-group-item {
+    font-size: 0.6rem;
+  }
+}
+@media (max-width:778px) and (min-width:767px) {
+  .skillIcon {
+    font-size: 0.7rem;
+    padding-left: 0.2%;
+  }
+
+  .card-title {
+    font-size: 0.89rem;
+  }
+
+  .list-group-item {
+    font-size: 0.573rem;
+  }
+}
+@media (max-width:767px) and (min-width:353px) {
+  .one, .two, .three {
+    padding-left: 17%;
+  }
+  .one {
+    margin-top: 65px;
+  }
+
+  .three {
+    margin-bottom: 65px;
+  }
+
+  .card-title {
+    font-size: 1.4rem;
+  }
+
+  .skillIcon {
+    font-size: 1rem;
+    padding-left: 0.7%;
+  }
+
+  .list-group-item {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width:353px) and (min-width:320px) {
+  .one, .two, .three {
+    padding-left: 18%;
+  }
+
+  .one {
+    margin-top: 55px;
+  }
+
+  .three {
+    margin-bottom: 55px;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .skillIcon {
+    font-size: 0.9rem;
+    padding-left: 0.7%;
+  }
+
+  .list-group-item {
+    font-size: 0.78rem;
+  }
+}
+@media (max-width:1358px) and (min-width:1320px) {
+  .text-block {
+    position: absolute;
+    bottom: 33%;
+    left: 5%;
+  }
+}
+
+@media (max-width:1342px) and (min-width:1241px) {
+  .aboutMe {
+    padding-bottom: 1%;
+  }
+}
+
+@media (max-width:1241px) and (min-width:1160px) {
+  .aboutMe {
+    padding-bottom: 1%;
+    font-size: 4.5rem;
+  }
+
+  .text {
+    font-size: 1.2rem;
+  }
+
+  .aboutIcon {
+    font-size: 2.7rem;
+  }
+}
+
+@media (max-width:1160px) and (min-width:1109px) {
+  .aboutMe {
+    padding-bottom: 1%;
+    font-size: 4.4rem;
+  }
+
+  .text {
+    font-size: 1.15rem;
+  }
+
+  .aboutIcon {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width:1109px) and (min-width:1009px) {
+  .aboutMe {
+    padding-bottom: 1%;
+    font-size: 4.1rem;
+  }
+
+  .text {
+    font-size: 1.04rem;
+  }
+
+  .aboutIcon {
+    font-size: 2.1rem;
+  }
+}
+
+@media (max-width:1009px) and (min-width:974px) {
+  .aboutMe {
+    padding-bottom: 1%;
+    font-size: 3.9rem;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
+
+  .aboutIcon {
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width:974px) and (min-width:937px) {
+  .aboutMe {
+    padding-bottom: 0.5%;
+    font-size: 3.8rem;
+  }
+
+  .text {
+    font-size: 0.96rem;
+  }
+
+  .aboutIcon {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width:937px) and (min-width:885px) {
+  .aboutMe {
+    padding-bottom: 0.5%;
+    font-size: 3.6rem;
+  }
+
+  .text {
+    font-size: 0.9rem;
+  }
+
+  .aboutIcon {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width:885px) and (min-width:850px) {
+  .aboutMe {
+    padding-bottom: 0.5%;
+    font-size: 3.6rem;
+  }
+
+  .text {
+    font-size: 0.9rem;
+  }
+
+  .aboutIcon {
+    font-size: 1.5rem;
+  }
+
+  .main {
+    padding-top: 15%;
+    padding-right: 28%;
+  }
+}
+
+@media (max-width:850px) and (min-width:819px) {
+  .aboutMe {
+    padding-bottom: 0.5%;
+    font-size: 3.4rem;
+  }
+
+  .text {
+    font-size: 0.9rem;
+  }
+
+  .aboutIcon {
+    font-size: 1.4rem;
+  }
+
+  .main {
+    padding-top: 15%;
+    padding-right: 28%;
+  }
+}
+
+@media (max-width:819px) and (min-width:775px) {
+  .aboutMe {
+    padding-bottom: 0.5%;
+    font-size: 3.3rem;
+  }
+
+  .text {
+    font-size: 0.8rem;
+  }
+
+  .aboutIcon {
+    font-size: 1.3rem;
+  }
+
+  .main {
+    padding-top: 15%;
+    padding-right: 28%;
+  }
+}
+
+@media (max-width:775px) and (min-width:767px) {
+  .aboutMe {
+    padding-bottom: 0.4%;
+    font-size: 3rem;
+  }
+
+  .text {
+    font-size: 0.78rem;
+  }
+
+  .aboutIcon {
+    font-size: 1.2rem;
+  }
+
+  .main {
+    padding-top: 15%;
+    padding-right: 28%;
+  }
+}
+@media (max-width:767px) and (min-width:726px) {
+  .aboutMe {
+    padding-bottom: 0.4%;
+    font-size: 3.3rem;
+    position: relative;
+    left: 30px;
+  }
+
+  .text {
+    font-size: 1rem;
+    margin-bottom: 8%;
+    position: relative;
+    left: 50px;
+  }
+  .aboutIcon {
+    font-size: 1.4rem;
+  }
+
+  .main {
+    padding-top: 1%;
+    padding-right: 15%;
+    text-align: center;
+  }
+
+  .photo {
+    margin-top: 4%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    position: relative;
+    left: 170px;
+  }
+
+  .self-photo1 {
+    display: inline-block;
+    width: 37%;
+    border-radius: 50%;
+  }
+}
+@media (max-width:726px) and (min-width:677px) {
+  .aboutMe {
+    padding-bottom: 0.4%;
+    font-size: 3.3rem;
+    position: relative;
+    left: 33px;
+  }
+
+  .text {
+    font-size: 1rem;
+    margin-bottom: 8%;
+    position: relative;
+    left: 40px;
+  }
+
+  .aboutIcon {
+    font-size: 1.4rem;
+  }
+
+  .main {
+    padding-top: 1%;
+    padding-right: 15%;
+    text-align: center;
+  }
+
+  .photo {
+    margin-top: 6%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    position: relative;
+    left: 170px;
+  }
+
+  .self-photo1 {
+    display: inline-block;
+    width: 37%;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width:677px) and (min-width:658px) {
+  .aboutMe {
+    padding-bottom: 0.4%;
+    font-size: 3.3rem;
+    position: relative;
+    left: 45px;
+  }
+
+  .text {
+    font-size: 0.9rem;
+    margin-bottom: 8%;
+    position: relative;
+    left: 40px;
+    /* text-align: justify; */
+  }
+
+  .aboutIcon {
+    font-size: 1.4rem;
+  }
+
+  .main {
+    padding-top: 1%;
+    padding-right: 15%;
+    text-align: center;
+  }
+
+  .photo {
+    margin-top: 6%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    position: relative;
+    left: 170px;
+  }
+
+  .self-photo1 {
+    display: inline-block;
+    width: 37%;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width:658px) and (min-width:614px) {
+  .aboutMe {
+    padding-bottom: 0.4%;
+    font-size: 3.3rem;
+    position: relative;
+    left: 45px;
+  }
+
+  .text {
+    font-size: 0.9rem;
+    margin-bottom: 8%;
+    position: relative;
+    left: 40px;
+    text-align: justify;
+  }
+
+  .aboutIcon {
+    font-size: 1.4rem;
+  }
+
+  .main {
+    padding-top: 1%;
+    padding-right: 15%;
+    text-align: center;
+  }
+
+  .photo {
+    margin-top: 6%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    position: relative;
+    left: 170px;
+  }
+
+  .self-photo1 {
+    display: inline-block;
+    width: 37%;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width:614px) and (min-width:575px) {
+  .aboutMe {
+    padding-bottom: 0.4%;
+    font-size: 3.2rem;
+    position: relative;
+    left: 45px;
+  }
+
+  .text {
+    font-size: 0.8rem;
+    margin-bottom: 8%;
+    position: relative;
+    left: 40px;
+    text-align: justify;
+  }
+
+  .aboutIcon {
+    font-size: 1.4rem;
+  }
+
+  .main {
+    padding-top: 1%;
+    padding-right: 15%;
+    text-align: center;
+  }
+
+  .photo {
+    margin-top: 6%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    position: relative;
+    left: 155px;
+  }
+
+  .self-photo1 {
+    display: inline-block;
+    width: 37%;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width:575px) and (min-width:552px) {
+  .aboutMe {
+    padding-bottom: 0.4%;
+    font-size: 3.2rem;
+    position: relative;
+    left: 45px;
+  }
+
+  .text {
+    font-size: 0.83rem;
+    margin-bottom: 8%;
+    position: relative;
+    left: 40px;
+    text-align: justify;
+  }
+
+  .aboutIcon {
+    font-size: 1.4rem;
+  }
+
+  .main {
+    padding-top: 1%;
+    padding-right: 15%;
+    text-align: center;
+  }
+
+  .photo {
+    margin-top: 6%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    position: relative;
+    left: 144px;
+  }
+
+  .self-photo1 {
+    display: inline-block;
+    width: 37%;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width:552px) and (min-width:510px) {
+  .aboutMe {
+    padding-bottom: 0.4%;
+    font-size: 3rem;
+    position: relative;
+    left: 40px;
+  }
+
+  .text {
+    font-size: 0.83rem;
+    margin-bottom: 8%;
+    position: relative;
+    left: 40px;
+    text-align: justify;
+  }
+
+  .aboutIcon {
+    font-size: 1.4rem;
+  }
+
+  .main {
+    padding-top: 1%;
+    padding-right: 15%;
+    text-align: center;
+  }
+
+  .photo {
+    margin-top: 6%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    position: relative;
+    left: 139px;
+  }
+
+  .self-photo1 {
+    display: inline-block;
+    width: 37%;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width:510px) and (min-width:460px) {
+  .aboutMe {
+    padding-bottom: 0.4%;
+    font-size: 3rem;
+    position: relative;
+    left: 40px;
+  }
+
+  .text {
+    font-size: 0.8rem;
+    margin-bottom: 8%;
+    position: relative;
+    left: 34px;
+    text-align: justify;
+  }
+
+  .aboutIcon {
+    font-size: 1.4rem;
+  }
+
+  .main {
+    padding-top: 1%;
+    padding-right: 15%;
+    text-align: center;
+  }
+
+  .photo {
+    margin-top: 6%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    position: relative;
+    left: 125px;
+  }
+
+  .self-photo1 {
+    display: inline-block;
+    width: 37%;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width:460px) and (min-width:448px) {
+  .aboutMe {
+    padding-bottom: 0.4%;
+    font-size: 2.7rem;
+    position: relative;
+    left: 35px;
+  }
+
+  .text {
+    font-size: 0.76rem;
+    margin-bottom: 8%;
+    position: relative;
+    left: 34px;
+    text-align: justify;
+  }
+
+  .aboutIcon {
+    font-size: 1.4rem;
+  }
+
+  .main {
+    padding-top: 1%;
+    padding-right: 15%;
+    text-align: center;
+  }
+
+  .photo {
+    margin-top: 6%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    position: relative;
+    left: 118px;
+  }
+
+  .self-photo1 {
+    display: inline-block;
+    width: 37%;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width:448px) and (min-width:415px) {
+  .aboutMe {
+    padding-bottom: 0.4%;
+    font-size: 2.5rem;
+    position: relative;
+    left: 35px;
+  }
+
+  .text {
+    font-size: 0.74rem;
+    margin-bottom: 8%;
+    position: relative;
+    left: 34px;
+    text-align: justify;
+  }
+
+  .aboutIcon {
+    font-size: 1.4rem;
+  }
+
+  .main {
+    padding-top: 1%;
+    padding-right: 15%;
+    text-align: center;
+  }
+
+  .photo {
+    margin-top: 6%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    position: relative;
+    left: 109px;
+  }
+
+  .self-photo1 {
+    display: inline-block;
+    width: 37%;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width:415px) and (min-width:395px) {
+  .aboutMe {
+    padding-bottom: 0.4%;
+    font-size: 2.5rem;
+    position: relative;
+    left: 30px;
+  }
+
+  .text {
+    font-size: 0.73rem;
+    margin-bottom: 8%;
+    position: relative;
+    left: 34px;
+    text-align: justify;
+  }
+
+  .aboutIcon {
+    font-size: 1.4rem;
+  }
+
+  .main {
+    padding-top: 1%;
+    padding-right: 15%;
+    text-align: center;
+  }
+
+  .photo {
+    margin-top: 6%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    position: relative;
+    left: 102px;
+  }
+
+  .self-photo1 {
+    display: inline-block;
+    width: 37%;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width:395px) and (min-width:355px) {
+  .aboutMe {
+    padding-bottom: 0.4%;
+    font-size: 2.5rem;
+    position: relative;
+    left: 30px;
+  }
+
+  .text {
+    font-size: 0.72rem;
+    margin-bottom: 8%;
+    position: relative;
+    left: 25px;
+    text-align: justify;
+  }
+
+  .aboutIcon {
+    font-size: 1.4rem;
+  }
+
+  .main {
+    padding-top: 1%;
+    padding-right: 15%;
+    text-align: center;
+  }
+
+  .photo {
+    margin-top: 6%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    position: relative;
+    left: 74px;
+  }
+
+  .self-photo1 {
+    display: inline-block;
+    width: 50%;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width:355px) and (min-width:320px) {
+  .aboutMe {
+    padding-bottom: 0.4%;
+    font-size: 2.5rem;
+    position: relative;
+    left: 25px;
+  }
+
+  .text {
+    font-size: 0.68rem;
+    margin-bottom: 8%;
+    position: relative;
+    left: 25px;
+    text-align: justify;
+  }
+
+  .aboutIcon {
+    font-size: 1.4rem;
+  }
+
+  .main {
+    padding-top: 1%;
+    padding-right: 15%;
+    text-align: center;
+  }
+
+  .photo {
+    margin-top: 6%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    position: relative;
+    left: 55px;
+  }
+
+  .self-photo1 {
+    display: inline-block;
+    width: 59%;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width:1300px) and (min-width:1200px) {
+  .edTxt {
+    font-size: 0.9rem;
+  }
+
+  .selfTxt {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width:1200px) and (min-width:1100px) {
+  .edTxt {
+    font-size: 0.88rem;
+  }
+
+  .selfTxt {
+    font-size: 0.95rem;
+  }
+
+  .ed {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width:1100px) and (min-width:960px) {
+  .edTxt {
+    font-size: 0.83rem;
+  }
+
+  .selfTxt {
+    font-size: 0.95rem;
+  }
+
+  .ed {
+    font-size: 2.8rem;
+  }
+
+  .edCenter {
+    width: 32%;
+    margin-left: 34%;
+  }
+
+  .sea, .mvp {
+    margin-left: 35%;
+  }
+
+  .schoolIcon {
+    font-size: 2.1rem;
+  }
+}
+
+@media (max-width:960px) and (min-width:900px) {
+  .edTxt {
+    font-size: 0.83rem;
+  }
+
+  .selfTxt {
+    font-size: 0.95rem;
+  }
+
+  .ed {
+    font-size: 2.7rem;
+  }
+
+  .edCenter {
+    width: 37%;
+    margin-left: 31%;
+  }
+
+  .sea, .mvp {
+    margin-left: 33%;
+  }
+
+  .edIcon {
+    font-size: 2.6rem;
+  }
+
+  .schoolIcon {
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width:900px) and (min-width:800px) {
+  .edTxt {
+    font-size: 0.83rem;
+  }
+
+  .selfTxt {
+    font-size: 0.95rem;
+  }
+
+  .ed {
+    font-size: 2.7rem;
+  }
+
+  .edCenter {
+    width: 40%;
+    margin-left: 30%;
+  }
+
+  .sea, .mvp {
+    margin-left: 30%;
+  }
+
+  .edIcon {
+    font-size: 2.6rem;
+  }
+
+  .schoolIcon {
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width:800px) and (min-width:760px) {
+  .edTxt {
+    font-size: 0.83rem;
+    padding-top: 1.5%;
+  }
+
+  .selfTxt {
+    font-size: 0.97rem;
+    padding-top: 1.4%;
+  }
+
+  .ed {
+    font-size: 2.7rem;
+    padding-top: 4%;
+  }
+
+  .edCenter {
+    width: 40%;
+    margin-left: 29%;
+    margin-top: 2.8%;
+  }
+
+  .edIcon {
+    font-size: 2.4rem;
+  }
+
+  .schoolIcon {
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width:760px) and (min-width:670px) {
+  .edTxt {
+    font-size: 0.81rem;
+    padding-top: 1.5%;
+  }
+
+  .selfTxt {
+    font-size: 0.97rem;
+    padding-top: 1.4%;
+  }
+
+  .ed {
+    font-size: 2.5rem;
+    padding-top: 4%;
+  }
+
+  .edCenter {
+    width: 44%;
+    margin-left: 28%;
+    margin-top: 2.8%;
+  }
+
+  .edIcon {
+    font-size: 2.4rem;
+  }
+
+  .sea, .mvp {
+    margin-left: 28%;
+  }
+
+  .schoolIcon {
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width:670px) and (min-width:600px) {
+  .edTxt {
+    font-size: 0.78rem;
+    padding-top: 1.5%;
+  }
+
+  .selfTxt {
+    font-size: 0.92rem;
+    padding-top: 1.4%;
+  }
+
+  .ed {
+    font-size: 2.7rem;
+    padding-top: 4%;
+  }
+
+  .edCenter {
+    width: 48%;
+    margin-left: 25%;
+    margin-top: 2.8%;
+  }
+
+  .edIcon {
+    font-size: 2.4rem;
+  }
+
+  .sea, .mvp {
+    margin-left: 25.5%;
+  }
+
+  .schoolIcon {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width:600px) and (min-width:550px) {
+  .edTxt {
+    font-size: 0.74rem;
+    padding-top: 1.5%;
+  }
+
+  .selfTxt {
+    font-size: 0.9rem;
+    padding-top: 1.4%;
+  }
+
+  .ed {
+    font-size: 2.3rem;
+    padding-top: 4%;
+  }
+
+  .edCenter {
+    width: 50%;
+    margin-left: 24.5%;
+    margin-top: 2.8%;
+  }
+
+  .edIcon {
+    font-size: 2.2rem;
+  }
+
+  .sea, .mvp {
+    margin-left: 25%;
+  }
+
+  .schoolIcon {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width:550px) and (min-width:460px) {
+  .edTxt {
+    font-size: 0.77rem;
+    padding-top: 1.5%;
+  }
+
+  .selfTxt {
+    font-size: 0.88rem;
+    padding-top: 1.4%;
+  }
+
+  .ed {
+    font-size: 2.3rem;
+    padding-top: 4%;
+  }
+
+  .edCenter {
+    width: 60%;
+    margin-left: 19%;
+    margin-top: 2.8%;
+  }
+
+  .edIcon {
+    font-size: 2.2rem;
+  }
+
+  .sea, .mvp {
+    margin-left: 19.5%;
+  }
+
+  .schoolIcon {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width:460px) and (min-width:375px) {
+  .edTxt {
+    font-size: 0.75rem;
+    padding-top: 1.5%;
+  }
+
+  .selfTxt {
+    font-size: 0.86rem;
+    padding-top: 1.4%;
+  }
+
+  .ed {
+    font-size: 2.3rem;
+    padding-top: 4%;
+  }
+
+  .edCenter {
+    width: 76%;
+    margin-left: 11.5%;
+    margin-top: 2.8%;
+  }
+
+  .edIcon {
+    font-size: 2rem;
+  }
+
+  .sea, .mvp {
+    margin-left: 12%;
+  }
+
+  .schoolIcon {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width:375px) and (min-width:320px) {
+  .edTxt {
+    font-size: 0.75rem;
+    padding-top: 1.5%;
+  }
+
+  .selfTxt {
+    font-size: 0.86rem;
+    padding-top: 1.4%;
+  }
+
+  .ed {
+    font-size: 2.3rem;
+    padding-top: 4%;
+  }
+
+  .edCenter {
+    width: 78%;
+    margin-left: 10.5%;
+    margin-top: 2.8%;
+  }
+
+  .edIcon {
+    font-size: 1.9rem;
+  }
+
+  .sea, .mvp {
+    margin-left: 11%;
+  }
+
+  .schoolIcon {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width:1300px) and (min-width:1100px) {
+  .icon {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width:1100px) and (min-width:900px) {
+  .icon {
+    font-size: 1.2rem;
+  }
+
+  .copyright {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width:900px) and (min-width:750px) {
+  .icon {
+    font-size: 1.17rem;
+  }
+
+  .copyright {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width:750px) and (min-width:600px) {
+  .icon {
+    font-size: 1.1rem;
+  }
+
+  .copyright {
+    font-size: 0.86rem;
+  }
+}
+
+@media (max-width:600px) and (min-width:450px) {
+  .icon {
+    font-size: 0.98rem;
+  }
+
+  .copyright {
+    font-size: 0.78rem;
+  }
+}
+
+@media (max-width:450px) and (min-width:320px) {
+  .icon {
+    font-size: 0.9rem;
+  }
+
+  .copyright {
+    font-size: 0.72rem;
+  }
+}
+@media (max-width:768px) and (min-width:640px){
+  .navbar-brand{
+    padding-left: 6%;
+  }
+  .navbar-toggler{
+    padding-right: 5%;
+  }
+}
+@media (max-width:640px) and (min-width:570px){
+  .navbar-brand{
+    padding-left: 6%;
+    font-size: 1.7rem;
+  }
+  .navbar-toggler{
+    padding-right: 5%;
+  }
+}
+@media (max-width:570px) and (min-width:430px){
+  .navbar-brand{
+    padding-left: 6%;
+    font-size: 1.4rem;
+  }
+  .navbar-toggler{
+    padding-right: 5%;
+  }
+}
+@media (max-width:430px) and (min-width:350px){
+  .navbar-brand{
+    padding-left: 6%;
+    font-size: 1.3rem;
+  }
+  .navbar-toggler{
+    padding-right: 5%;
+  }
+}
+@media (max-width:350px) and (min-width:320px){
+  .navbar-brand{
+    padding-left: 6%;
+    font-size: 1.2rem;
+  }
+  .navbar-toggler{
+    padding-right: 5%;
+  }
+}
